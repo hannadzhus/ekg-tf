@@ -1,16 +1,3 @@
-provider "google" {
-  project     = var.project_id   #"sapient-tracer-417700"
-  region      = var.region   # "us-central1"
-}
-
-terraform {
-  required_providers {
-    google = {
-      source = "hashicorp/google"
-      version = "4.47.0"
-    }
-  }
-}
 
 resource "google_service_account" "default" {
   account_id   = var.service_account_id # "gke-hanna-cluster" 
