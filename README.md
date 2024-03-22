@@ -1,4 +1,4 @@
-# ekg-tf repo
+# Terraform ekg-tf repo
 ## This is a repo with Terraform resources 
 ### Managed by DevOps team
 
