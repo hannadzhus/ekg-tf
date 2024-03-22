@@ -1,6 +1,6 @@
-### ekg-tf repo
+# ekg-tf repo
 ## This is a repo with Terraform resources 
-# Managed by DevOps team
+### Managed by DevOps team
 
 In this repo you will find **gke** folder.
 In **gke** folder there is a terraform code to create *Google Kubernetes Engine* cluster. There are the following files:
