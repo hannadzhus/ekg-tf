@@ -21,7 +21,7 @@ terraform plan
 terraform apply 
 ```
 
-In case of troubleshooting after terraform ws initialize, make sure to run the following:
+In case of troubleshooting after terraform initialize, make sure to run the following:
 
 ```
 terraform plan --var-file=values.tfvars
