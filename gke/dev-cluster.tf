@@ -1,10 +1,9 @@
-
 module "dev-cluster" {
   source = "git@github.com:hannadzhus/tf-modules.git//gke"
   region = "us-central1"
   project_id = "sapient-tracer-417700"
-  service_account_id = "gke-hanna-cluster" 
-  sa_display_name = "service acc for cluster hanna"
+  service_account_id = "dev-gke-cluster" 
+  sa_display_name = "service acc for dev-cluster hanna"
   cluster_name = "dev-cluster-tf"
   location = "us-central1"
   initial_node_count = "1"
