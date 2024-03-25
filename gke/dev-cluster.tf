@@ -7,6 +7,6 @@ module "dev-cluster" {
   cluster_name = "dev-cluster-tf"
   location = "us-central1"
   initial_node_count = "1"
-  disk_size_gb = "60"
+  disk_size_gb = "20"
   
 }
