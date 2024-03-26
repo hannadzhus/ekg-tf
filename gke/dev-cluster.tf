@@ -5,7 +5,7 @@ module "dev-cluster" {
   service_account_id = "dev-gke-cluster" 
   sa_display_name = "service acc for dev-cluster hanna"
   cluster_name = "dev-cluster-tf"
-  location = "us-central1"
+  location = "us-central1-a"
   initial_node_count = 1
   disk_size_gb = "20"
   

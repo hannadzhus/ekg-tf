@@ -5,7 +5,7 @@ module "qa-cluster" {
   service_account_id = "qa-gke-cluster" 
   sa_display_name = "service acc for cluster hanna"
   cluster_name = "qa-cluster-tf"
-  location = "us-central1"
+  location = "us-central1-b"
   initial_node_count = 1
   disk_size_gb = "20"
 }
