@@ -1,4 +1,8 @@
 terraform {
+  backend "gcs" {
+    bucket  = "gke-bucket-hanna"
+    prefix  = "terraform/state"
+  }
   required_providers {
     google = {
       source = "hashicorp/google"
@@ -6,3 +10,6 @@ terraform {
     }
   }
 }
+
+
+
